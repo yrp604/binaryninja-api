@@ -10,8 +10,7 @@
 using namespace BinaryNinja;
 using namespace std;
 
-Ref<Enumeration> get_system_register_enum();
-Ref<Type> get_system_register_enum_type(Ref<BinaryView> view);
-QualifiedName get_system_register_enum_type_name(Ref<BinaryView> view);
+Ref<Enumeration>        get_system_register_enum();
+Ref<Type>               get_system_register_enum_type(Ref<BinaryView> view);
+QualifiedName           get_system_register_enum_type_name(Ref<BinaryView> view);
 const vector<uint32_t>& get_system_registers();
-
